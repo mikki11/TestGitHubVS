@@ -22,10 +22,12 @@ namespace VSandGit
             if (button1.BackColor != Color.Blue)
             {
                 button1.BackColor = Color.Blue;
+                button1.Text = "Plavo";
             }
             else
             {
                 button1.BackColor = Color.Yellow;
+                button1.Text = "Zuto";
             }
             
         }
