@@ -16,5 +16,18 @@ namespace VSandGit
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (button1.BackColor != Color.Blue)
+            {
+                button1.BackColor = Color.Blue;
+            }
+            else
+            {
+                button1.BackColor = Color.Yellow;
+            }
+            
+        }
     }
 }
