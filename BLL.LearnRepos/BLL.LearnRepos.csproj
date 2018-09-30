@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MySalesPerson.cs" />
     <Compile Include="GenericRepository.cs" />
     <Compile Include="MyControler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
