@@ -29,9 +29,9 @@ namespace VSandGit
             else
             {
                 button1.BackColor = Color.Yellow;
-                button1.Text = "Zuto";
+                button1.Text = "Zolta";
                 button1.Font = new Font("Arial", 12);
-                button1.ForeColor = Color.DarkOliveGreen;
+                button1.ForeColor = Color.Black;
             }
             
         }
