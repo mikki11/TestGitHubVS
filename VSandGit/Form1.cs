@@ -29,5 +29,19 @@ namespace VSandGit
             }
             
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Button buttonX = sender as Button;
+            if(buttonX.Width != 120)
+            {
+                buttonX.Size = new Size(120, 50);
+            }
+            else
+            {
+                buttonX.Size = new Size(70, 30);
+            }
+
+        }
     }
 }
