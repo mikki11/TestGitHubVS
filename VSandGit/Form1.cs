@@ -23,11 +23,15 @@ namespace VSandGit
             {
                 button1.BackColor = Color.Blue;
                 button1.Text = "Plavo";
+                button1.Font = new Font("Times New Roman", 16);
+                button1.ForeColor = Color.White;
             }
             else
             {
                 button1.BackColor = Color.Yellow;
                 button1.Text = "Zuto";
+                button1.Font = new Font("Arial", 12);
+                button1.ForeColor = Color.DarkOliveGreen;
             }
             
         }
