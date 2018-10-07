@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.AdventureWorks", "DAL.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL.LearnRepos", "BLL.LearnRepos\BLL.LearnRepos.csproj", "{CE4AA5A5-6030-48DB-843D-448B150127ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{0E948FF6-2329-4222-BB08-8778B81E1034}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRepos", "ConsoleApplication1\AppRepos.csproj", "{0E948FF6-2329-4222-BB08-8778B81E1034}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
