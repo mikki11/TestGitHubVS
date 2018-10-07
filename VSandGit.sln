@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL.LearnRepos", "BLL.Learn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRepos", "ConsoleApplication1\AppRepos.csproj", "{0E948FF6-2329-4222-BB08-8778B81E1034}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClassInheritance", "TestClassInheritance\TestClassInheritance.csproj", "{7858EFBF-0FA5-4FA0-BCFE-E19B0F1533EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0E948FF6-2329-4222-BB08-8778B81E1034}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E948FF6-2329-4222-BB08-8778B81E1034}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E948FF6-2329-4222-BB08-8778B81E1034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7858EFBF-0FA5-4FA0-BCFE-E19B0F1533EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7858EFBF-0FA5-4FA0-BCFE-E19B0F1533EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7858EFBF-0FA5-4FA0-BCFE-E19B0F1533EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7858EFBF-0FA5-4FA0-BCFE-E19B0F1533EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
