@@ -8,7 +8,7 @@ namespace TestClassInheritance
 {
     public class BaseClass
     {
-        public void Method1()
+        public virtual void Method1()
         {
             Console.WriteLine("BaseClass: Method1 ");
         }
@@ -21,6 +21,16 @@ namespace TestClassInheritance
 
     public class DerivedClass : BaseClass
     {
+        public override void Method1()
+        {
+            //base.Method1();
+            Console.WriteLine("Derived Method1");
+
+        }
+        public new void Method2()
+        {
+            Console.WriteLine("Derived Method2");
+        }
 
     }
 }
