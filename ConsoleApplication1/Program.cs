@@ -22,7 +22,7 @@ namespace ConsoleApplication1
             var yy = mc1.GetTen();
             foreach (var item in yy)
             {
-                Console.WriteLine(item.Bonus);
+                Console.WriteLine(item.ToString());
             }
             Console.ReadLine();
         }

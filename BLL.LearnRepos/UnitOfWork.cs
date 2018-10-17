@@ -10,17 +10,41 @@ namespace BLL.LearnRepos
     public class UnitOfWork : IDisposable
     {
         private AdventureWorks2014Entities context = new AdventureWorks2014Entities();
-        private GenericRepository<SalesPerson> userRepository;
+        private GenericRepository<SalesPerson> _salesPRepository;
+        private GenericRepository<SalesOrderDetail> _salesOrderDetailRepos;
+        private GenericRepository<SalesOrderHeader> _salesOrderHeaderRepos;
 
-        public GenericRepository<SalesPerson> UserRepository
+        public GenericRepository<SalesPerson> SalesPRepository
         {
             get
             {
-                if (this.userRepository == null)
-                    this.userRepository = new GenericRepository<SalesPerson>(context);
-                return userRepository;
+                if (this._salesPRepository == null)
+                    this._salesPRepository = new GenericRepository<SalesPerson>(context);
+                return _salesPRepository;
             }
         }
+
+
+        public GenericRepository<SalesOrderHeader> SalesOrderHeaderRepos
+        {
+            get
+            {
+                if (this._salesOrderHeaderRepos == null)
+                    this._salesOrderHeaderRepos = new GenericRepository<SalesOrderHeader>(context);
+                return _salesOrderHeaderRepos;
+            }
+        }
+
+        public GenericRepository<SalesOrderDetail> SalesOrderDetailRepos
+        {
+            get
+            {
+                if (this._salesOrderDetailRepos == null)
+                    this._salesOrderDetailRepos = new GenericRepository<SalesOrderDetail>(context);
+                return _salesOrderDetailRepos;
+            }
+        }
+
 
         public void Save()
         {

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRepos", "ConsoleApplicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClassInheritance", "TestClassInheritance\TestClassInheritance.csproj", "{7858EFBF-0FA5-4FA0-BCFE-E19B0F1533EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDataGridView", "TestDataGridView\TestDataGridView.csproj", "{3474948E-0976-49C2-8598-936387798572}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7858EFBF-0FA5-4FA0-BCFE-E19B0F1533EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7858EFBF-0FA5-4FA0-BCFE-E19B0F1533EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7858EFBF-0FA5-4FA0-BCFE-E19B0F1533EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3474948E-0976-49C2-8598-936387798572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3474948E-0976-49C2-8598-936387798572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3474948E-0976-49C2-8598-936387798572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3474948E-0976-49C2-8598-936387798572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
